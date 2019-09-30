@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kyle's Trivia Game</title>
+
+<!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--Link Style Sheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+ <div class="container">
+     <div class="jumbotron">
     <h1>Welcome to Kyle's Trivia Game</h1>
-<bold><p>This trivia game is designed to test your movie knowledge in the sci-fi genre.</p></bold>
+<!--Create Start Button-->
+    <button class="btn btn-primary">Press to Start Game</button>
+ </div>
+<!--Create elements time and game id -->
+ <h2 id="time"></h2>
+ <div id="game"></div>
+ 
+   </div>
 
-<button class="btn btn-primary">Test</button>
-
+<!--Jquery and JS Files-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 <script src="./assets/javascript/questions.js"></script>
 <script src="./assets/javascript/app.js"></script>
