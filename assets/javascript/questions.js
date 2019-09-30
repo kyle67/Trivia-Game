@@ -14,14 +14,14 @@ const movieQuestions = [
     },
  
     {
-        question:"",
-        choices: ["","","",""],
-        correctAnswer:""
+        question:"In what space movie does a dead tribble help save Captain Kirk's life?",
+        choices: ["Star Trek Into Darkness","Return of the Jedi","War of The Worlds","1952"],
+        correctAnswer:"Star Trek Into Darkness"
     },
 
     {    
-        question:"",
-        choices: ["","","",""],
-        correctAnswer:""
+        question:"What campy 1968 film stars Jane Fonda as a woman who is sent to another galaxy to find a missing scientist?",
+        choices: ["School Daze","Barbarella","Lost in Space","Back to the Future"],
+        correctAnswer:"Barbarella"
     },
 ];
